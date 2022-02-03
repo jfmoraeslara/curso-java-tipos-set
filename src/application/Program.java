@@ -1,13 +1,13 @@
 package application;
 
+import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class Program {
 
 	public static void main(String[] args) {
-		//Tree (ordena os dados)
-		Set<String> set = new TreeSet<>();
+		//Tree (manter a ordem do elementos)
+		Set<String> set = new LinkedHashSet<>();
 
 		set.add("Tv");
 		set.add("Notebook");
