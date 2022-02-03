@@ -12,8 +12,9 @@ public class Program {
 		set.add("Tv");
 		set.add("Notebook");
 		set.add("Tablet");
-
-		System.out.println("Existe o componente Notebook? " + set.contains("Notebook"));
+		
+		set.remove("Notebook");		
+		System.out.println("O componete Notebook foi removido!");
 
 		for (String p : set) {
 			System.out.println(p);
